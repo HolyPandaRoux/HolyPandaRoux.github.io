@@ -1,0 +1,20 @@
+@use "../abstracts" as *;
+
+
+.logo-top {
+    display: flex;
+    text-align: center;
+}
+
+.logo-bottom {
+    display: flex;
+}
+
+.header__logo-top {
+    display: flex;
+    max-width: 200px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+}
