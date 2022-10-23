@@ -12,6 +12,7 @@
   src: local(""), url("../fonts/shrikhand-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/shrikhand-v11-latin-regular.woff2") format("woff2"), url("../fonts/shrikhand-v11-latin-regular.woff") format("woff"), url("../fonts/shrikhand-v11-latin-regular.ttf") format("truetype"), url("../fonts/shrikhand-v11-latin-regular.svg#Shrikhand") format("svg");
   /* Legacy iOS */
 }
+/* poele loader */
 /* Animation index.hmtl card 1 à 4 */
 .restau__restau-1 {
   -webkit-animation: restau__restau-1-load 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -765,6 +766,7 @@ section {
   src: local(""), url("../fonts/shrikhand-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/shrikhand-v11-latin-regular.woff2") format("woff2"), url("../fonts/shrikhand-v11-latin-regular.woff") format("woff"), url("../fonts/shrikhand-v11-latin-regular.ttf") format("truetype"), url("../fonts/shrikhand-v11-latin-regular.svg#Shrikhand") format("svg");
   /* Legacy iOS */
 }
+/* poele loader */
 /* Animation index.hmtl card 1 à 4 */
 .restau__restau-1 {
   -webkit-animation: restau__restau-1-load 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -1119,6 +1121,224 @@ section {
 }
 
 /* Font Icon */
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  -webkit-animation: loader-box forwards;
+          animation: loader-box forwards;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  background-color: rgba(255, 121, 218, 0.8);
+}
+
+@-webkit-keyframes loader-box {
+  0% {
+    opacity: 1;
+    z-index: 10;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes loader-box {
+  0% {
+    opacity: 1;
+    z-index: 10;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+@-webkit-keyframes loader {
+  0% {
+    width: 10%;
+    transform: rotate(0deg);
+  }
+  10% {
+    left: 0%;
+    transform: rotate(0deg);
+  }
+  20% {
+    width: 0%;
+    left: 20%;
+  }
+  30% {
+    width: 25%;
+  }
+  50% {
+    left: 15%;
+    width: 35%;
+  }
+  70% {
+    width: 30%;
+    left: 18%;
+    transform: rotate(240deg);
+  }
+  90% {
+    width: 30%;
+    left: 10%;
+  }
+  100% {
+    width: 2%;
+    left: 25%;
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader {
+  0% {
+    width: 10%;
+    transform: rotate(0deg);
+  }
+  10% {
+    left: 0%;
+    transform: rotate(0deg);
+  }
+  20% {
+    width: 0%;
+    left: 20%;
+  }
+  30% {
+    width: 25%;
+  }
+  50% {
+    left: 15%;
+    width: 35%;
+  }
+  70% {
+    width: 30%;
+    left: 18%;
+    transform: rotate(240deg);
+  }
+  90% {
+    width: 30%;
+    left: 10%;
+  }
+  100% {
+    width: 2%;
+    left: 25%;
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes pan {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: top right;
+  }
+  10% {
+    transform: rotate(-2deg);
+    transform-origin: top right;
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes pan {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: top right;
+  }
+  10% {
+    transform: rotate(-2deg);
+    transform-origin: top right;
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes shadow {
+  0% {
+    width: 30%;
+  }
+  50% {
+    width: 40%;
+    left: 20px;
+  }
+  100% {
+    width: 30%;
+  }
+}
+@keyframes shadow {
+  0% {
+    width: 30%;
+  }
+  50% {
+    width: 40%;
+    left: 20px;
+  }
+  100% {
+    width: 30%;
+  }
+}
+.pan-loader {
+  width: 180px;
+  height: 180px;
+  margin: 100px auto;
+}
+.pan-loader .loader {
+  position: relative;
+  top: 10%;
+  left: 0;
+  z-index: -1;
+  width: 60%;
+  height: 45%;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #FDD835;
+  border-radius: 50%;
+  -webkit-animation: loader 1s infinite;
+          animation: loader 1s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+.pan-loader .pan-container {
+  display: flex;
+  width: 100%;
+  -webkit-animation: pan 1s infinite;
+          animation: pan 1s infinite;
+}
+.pan-loader .pan {
+  width: 60%;
+  height: 20px;
+  background: linear-gradient(#3949AB, #5C6BC0);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.pan-loader .handle {
+  width: 40%;
+  height: 10px;
+  background: linear-gradient(#3949AB, #5C6BC0);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.pan-loader .shadow {
+  position: relative;
+  top: 15%;
+  left: 15%;
+  width: 30%;
+  height: 8px;
+  background: lightgray;
+  border-radius: 20px;
+  -webkit-animation: shadow 1s forwards;
+          animation: shadow 1s forwards;
+}
+
 .reservation {
   display: flex;
   flex-direction: column;
@@ -1319,6 +1539,7 @@ footer svg path {
   src: local(""), url("../fonts/shrikhand-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/shrikhand-v11-latin-regular.woff2") format("woff2"), url("../fonts/shrikhand-v11-latin-regular.woff") format("woff"), url("../fonts/shrikhand-v11-latin-regular.ttf") format("truetype"), url("../fonts/shrikhand-v11-latin-regular.svg#Shrikhand") format("svg");
   /* Legacy iOS */
 }
+/* poele loader */
 /* Animation index.hmtl card 1 à 4 */
 .restau__restau-1 {
   -webkit-animation: restau__restau-1-load 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;

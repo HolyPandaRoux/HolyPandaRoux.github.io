@@ -1,0 +1,10 @@
+{
+    "liveSassCompile.settings.formats": [
+        
+        {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/Projet 3/Ohmyfood/css/"
+    }],
+    "liveSassCompile.settings.rootIsWorkspace": null
+}
