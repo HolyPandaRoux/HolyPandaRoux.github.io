@@ -1,17 +1,16 @@
 // Calling of the Indexes
 // recreates the variable from abstract-index.scss inside the current file
 @use "../abstracts/" as *;
-
 .container {
-  display: flex;
-  flex-direction: column;
-  max-width: 768px;
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
 }
 
 main>div:nth-child(1)r {
-  background-color: #f7f7f7;
+    background-color: #f7f7f7;
 }
