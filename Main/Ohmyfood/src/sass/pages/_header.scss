@@ -1,0 +1,21 @@
+#restaurant header {
+
+    .page_header_bandeau {
+        display: flex;
+        width: 100%;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        span {
+            cursor: pointer;
+        }
+
+        .header__return-button {
+            position: absolute;
+            font-weight: 700;
+            left: 20px;
+        }
+    }
+}

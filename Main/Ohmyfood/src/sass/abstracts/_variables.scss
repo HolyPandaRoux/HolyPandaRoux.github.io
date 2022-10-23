@@ -1,0 +1,46 @@
+$header-maxwidth : 768px;
+
+$body-maxwidth : 768px;
+
+$footer-container-maxwidth : 768px;
+
+$flexbloxcontainer-maxwidth: 768px;
+
+$container-margin: 0;
+
+$image-maxwidth : 768px;
+
+$image-width: 100%;
+
+$image-maxheight: 250px;
+
+$body-margin: 0% 0% 0% 0%;
+
+$nouveauté-color: #99e2d0;
+
+$nouveauté: (
+    display: flex,
+    width: 75px,
+    height: 22px,
+    color: #99e2d0,
+);
+
+$display-coeur: none;
+
+$font-weight-coeur: 700;
+
+$color-coeur: #d04ed6;
+
+/* poele loader */
+
+$component-dimension: 180px;
+
+$timing: 1s;
+
+$color-shadow: lightgray;
+
+$pan-color-light: #3949AB;
+
+$pan-color-dark: #5C6BC0;
+
+$loader-color: #FDD835;

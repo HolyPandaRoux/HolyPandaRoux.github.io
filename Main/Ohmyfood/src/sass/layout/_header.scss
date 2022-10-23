@@ -1,0 +1,21 @@
+@use "../abstracts/" as *;
+
+
+.bandeau-lieux {
+    box-shadow: inset 0px 13px 13px -18px;
+
+    .header__lieux {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        vertical-align: middle;
+        column-gap: 10px;
+        height: 50px;
+    }
+
+    h2 {
+        font-weight: 600;
+        color: rgb(85, 85, 85);
+        font-size: 15px;
+    }
+}
