@@ -1,62 +1,28 @@
 /* Animation index.hmtl card 1 à 4 */
 
-.restau__restau-1 {
-    animation: restau__restau-1-load 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+.restau {
+    .restau__restau-1 {
+        animation-delay: 1s;
+    }
+    .restau__restau-2 {
+        animation-delay: 2s;
+    }
+    .restau__restau-3 {
+        animation-delay: 3s;
+    }
+    .restau__restau-4 {
+        animation-delay: 4s;
+    }
 }
 
-@keyframes restau__restau-1-load {
-    0% {
+@keyframes slideIn {
+    from {
         opacity: 0;
-        transform: translateY(-200px);
+        transform: translate3d(0, 30px, 0);
     }
-    100% {
+    to {
         opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.restau__restau-2 {
-    animation: restau__restau-2-load 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-@keyframes restau__restau-2-load {
-    0% {
-        opacity: 0;
-        transform: translateY(-400px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.restau__restau-3 {
-    animation: restau__restau-3-load 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-@keyframes restau__restau-3-load {
-    0% {
-        opacity: 0;
-        transform: translateY(-800px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.restau__restau-4 {
-    animation: restau__restau-4-load 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-@keyframes restau__restau-4-load {
-    0% {
-        opacity: 0;
-        transform: translateY(-850px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
+        transform: translate3d(0, 0, 0);
     }
 }
 
@@ -64,167 +30,47 @@
 /* Animation Menu restaurants */
 
 #restaurant .card-1 {
-    animation: card-1-load 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 0ms;
-}
-
-@keyframes card-1-load {
-    0% {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    animation-delay: 1s;
 }
 
 #restaurant .card-2 {
-    animation: card-2-load 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 0ms;
-}
-
-@keyframes card-2-load {
-    0% {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    animation-delay: 2s;
 }
 
 #restaurant .card-3 {
-    animation: card-3-load 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 0ms;
-}
-
-@keyframes card-3-load {
-    0% {
-        opacity: 0;
-        transform: translateY(-147px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    animation-delay: 3s;
 }
 
 #restaurant .card-4 {
-    animation: card-4-load 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 0ms;
-}
-
-@keyframes card-4-load {
-    0% {
-        opacity: 0;
-        transform: translateY(-200px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    animation-delay: 4s;
 }
 
 #restaurant .card-5 {
-    animation: card-5-load 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 0ms;
-}
-
-@keyframes card-5-load {
-    0% {
-        opacity: 0;
-        transform: translateY(-300px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    animation-delay: 5s;
 }
 
 #restaurant .card-6 {
-    animation: card-6-load 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 0ms;
-}
-
-@keyframes card-6-load {
-    0% {
-        opacity: 0;
-        transform: translateY(-350px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    animation-delay: 6s;
 }
 
 #restaurant .card-7 {
-    animation: card-7-load 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 0ms;
-}
-
-@keyframes card-7-load {
-    0% {
-        opacity: 0;
-        transform: translateY(-400px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    animation-delay: 7s;
 }
 
 #restaurant .card-8 {
-    animation: card-8-load 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 0ms;
-}
-
-@keyframes card-8-load {
-    0% {
-        opacity: 0;
-        transform: translateY(-500px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    animation-delay: 8s;
 }
 
 #restaurant .card-9 {
-    animation: card-9-load 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 0ms;
-}
-
-@keyframes card-9-load {
-    0% {
-        opacity: 0;
-        transform: translateY(-600px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    animation-delay: 9s;
 }
 
 #restaurant .card-10 {
-    animation: card-10-load 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 0ms;
-}
-
-@keyframes card-10-load {
-    0% {
-        opacity: 0;
-        transform: translateY(-600px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    animation-delay: 10s;
 }
 
 
-/* Loader */
+/* Loder */
 
 .lds-heart {
     display: inline-block;

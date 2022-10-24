@@ -4,392 +4,96 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,400&family=Shrikhand&display=swap");
 /* poele loader */
 /* Animation index.hmtl card 1 à 4 */
-.restau__restau-1 {
-  -webkit-animation: restau__restau-1-load 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: restau__restau-1-load 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.restau .restau__restau-1 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.restau .restau__restau-2 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+.restau .restau__restau-3 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+.restau .restau__restau-4 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
-@-webkit-keyframes restau__restau-1-load {
-  0% {
+@-webkit-keyframes slideIn {
+  from {
     opacity: 0;
-    transform: translateY(-200px);
+    transform: translate3d(0, 30px, 0);
   }
-  100% {
+  to {
     opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes restau__restau-1-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-200px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.restau__restau-2 {
-  -webkit-animation: restau__restau-2-load 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: restau__restau-2-load 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
-@-webkit-keyframes restau__restau-2-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-400px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
-@keyframes restau__restau-2-load {
-  0% {
+@keyframes slideIn {
+  from {
     opacity: 0;
-    transform: translateY(-400px);
+    transform: translate3d(0, 30px, 0);
   }
-  100% {
+  to {
     opacity: 1;
-    transform: translateY(0);
-  }
-}
-.restau__restau-3 {
-  -webkit-animation: restau__restau-3-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: restau__restau-3-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
-@-webkit-keyframes restau__restau-3-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-800px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes restau__restau-3-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-800px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.restau__restau-4 {
-  -webkit-animation: restau__restau-4-load 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: restau__restau-4-load 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
-@-webkit-keyframes restau__restau-4-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-850px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes restau__restau-4-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-850px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
+    transform: translate3d(0, 0, 0);
   }
 }
 /* Animation Menu restaurants */
 #restaurant .card-1 {
-  -webkit-animation: card-1-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-1-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
-@-webkit-keyframes card-1-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes card-1-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-2 {
-  -webkit-animation: card-2-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-2-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
-@-webkit-keyframes card-2-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes card-2-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-3 {
-  -webkit-animation: card-3-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-3-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
-@-webkit-keyframes card-3-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-147px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes card-3-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-147px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-4 {
-  -webkit-animation: card-4-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-4-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
-@-webkit-keyframes card-4-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-200px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes card-4-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-200px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-5 {
-  -webkit-animation: card-5-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-5-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
 }
 
-@-webkit-keyframes card-5-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-300px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes card-5-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-300px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-6 {
-  -webkit-animation: card-6-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-6-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
 }
 
-@-webkit-keyframes card-6-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-350px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes card-6-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-350px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-7 {
-  -webkit-animation: card-7-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-7-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
 }
 
-@-webkit-keyframes card-7-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-400px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes card-7-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-400px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-8 {
-  -webkit-animation: card-8-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-8-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
 }
 
-@-webkit-keyframes card-8-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-500px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes card-8-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-500px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-9 {
-  -webkit-animation: card-9-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-9-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
 }
 
-@-webkit-keyframes card-9-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-600px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes card-9-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-600px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-10 {
-  -webkit-animation: card-10-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-10-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
 }
 
-@-webkit-keyframes card-10-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-600px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes card-10-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-600px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-/* Loader */
+/* Loder */
 .lds-heart {
   display: inline-block;
   position: relative;
@@ -744,242 +448,102 @@ section {
   flex-direction: column;
   width: 100%;
   box-shadow: 0px 8px 15px -17px;
+  cursor: pointer;
+  -webkit-animation-name: slideIn;
+          animation-name: slideIn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  margin-top: 40px;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
 }
 
 /* poele loader */
 /* Animation index.hmtl card 1 à 4 */
-.restau__restau-1 {
-  -webkit-animation: restau__restau-1-load 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: restau__restau-1-load 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.restau .restau__restau-1 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
-@keyframes restau__restau-1-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-200px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.restau__restau-2 {
-  -webkit-animation: restau__restau-2-load 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: restau__restau-2-load 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.restau .restau__restau-2 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
-@keyframes restau__restau-2-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-400px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.restau__restau-3 {
-  -webkit-animation: restau__restau-3-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: restau__restau-3-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.restau .restau__restau-3 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
-@keyframes restau__restau-3-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-800px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.restau__restau-4 {
-  -webkit-animation: restau__restau-4-load 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: restau__restau-4-load 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.restau .restau__restau-4 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
-@keyframes restau__restau-4-load {
-  0% {
+@keyframes slideIn {
+  from {
     opacity: 0;
-    transform: translateY(-850px);
+    transform: translate3d(0, 30px, 0);
   }
-  100% {
+  to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate3d(0, 0, 0);
   }
 }
 /* Animation Menu restaurants */
 #restaurant .card-1 {
-  -webkit-animation: card-1-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-1-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
-@keyframes card-1-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-2 {
-  -webkit-animation: card-2-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-2-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
-@keyframes card-2-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-3 {
-  -webkit-animation: card-3-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-3-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
-@keyframes card-3-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-147px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-4 {
-  -webkit-animation: card-4-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-4-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
-@keyframes card-4-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-200px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-5 {
-  -webkit-animation: card-5-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-5-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
 }
 
-@keyframes card-5-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-300px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-6 {
-  -webkit-animation: card-6-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-6-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
 }
 
-@keyframes card-6-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-350px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-7 {
-  -webkit-animation: card-7-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-7-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
 }
 
-@keyframes card-7-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-400px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-8 {
-  -webkit-animation: card-8-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-8-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
 }
 
-@keyframes card-8-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-500px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-9 {
-  -webkit-animation: card-9-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-9-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
 }
 
-@keyframes card-9-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-600px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-10 {
-  -webkit-animation: card-10-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-10-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
 }
 
-@keyframes card-10-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-600px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-/* Loader */
+/* Loder */
 .lds-heart {
   display: inline-block;
   position: relative;
@@ -1519,238 +1083,88 @@ footer svg path {
 
 /* poele loader */
 /* Animation index.hmtl card 1 à 4 */
-.restau__restau-1 {
-  -webkit-animation: restau__restau-1-load 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: restau__restau-1-load 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.restau .restau__restau-1 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
-@keyframes restau__restau-1-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-200px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.restau__restau-2 {
-  -webkit-animation: restau__restau-2-load 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: restau__restau-2-load 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.restau .restau__restau-2 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
-@keyframes restau__restau-2-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-400px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.restau__restau-3 {
-  -webkit-animation: restau__restau-3-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: restau__restau-3-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.restau .restau__restau-3 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
-@keyframes restau__restau-3-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-800px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.restau__restau-4 {
-  -webkit-animation: restau__restau-4-load 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: restau__restau-4-load 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.restau .restau__restau-4 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
-@keyframes restau__restau-4-load {
-  0% {
+@keyframes slideIn {
+  from {
     opacity: 0;
-    transform: translateY(-850px);
+    transform: translate3d(0, 30px, 0);
   }
-  100% {
+  to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate3d(0, 0, 0);
   }
 }
 /* Animation Menu restaurants */
 #restaurant .card-1 {
-  -webkit-animation: card-1-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-1-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
-@keyframes card-1-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-2 {
-  -webkit-animation: card-2-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-2-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
-@keyframes card-2-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-3 {
-  -webkit-animation: card-3-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-3-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
-@keyframes card-3-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-147px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-4 {
-  -webkit-animation: card-4-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-4-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
-@keyframes card-4-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-200px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-5 {
-  -webkit-animation: card-5-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-5-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
 }
 
-@keyframes card-5-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-300px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-6 {
-  -webkit-animation: card-6-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-6-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
 }
 
-@keyframes card-6-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-350px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-7 {
-  -webkit-animation: card-7-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-7-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
 }
 
-@keyframes card-7-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-400px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-8 {
-  -webkit-animation: card-8-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-8-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
 }
 
-@keyframes card-8-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-500px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-9 {
-  -webkit-animation: card-9-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-9-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
 }
 
-@keyframes card-9-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-600px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #restaurant .card-10 {
-  -webkit-animation: card-10-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: card-10-load 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -webkit-animation-delay: 0ms;
-          animation-delay: 0ms;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
 }
 
-@keyframes card-10-load {
-  0% {
-    opacity: 0;
-    transform: translateY(-600px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-/* Loader */
+/* Loder */
 .lds-heart {
   display: inline-block;
   position: relative;
@@ -1882,6 +1296,16 @@ footer svg path {
   overflow: hidden;
   -moz-column-gap: 20px;
        column-gap: 20px;
+  cursor: pointer;
+  -webkit-animation-name: slideIn;
+          animation-name: slideIn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  margin-top: 40px;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
 }
 #restaurant .container-principal-menu .main_entrée .entrées__card :hover + .tarif-icon {
   /* Translate = change of position + rotation */
@@ -1890,7 +1314,7 @@ footer svg path {
 }
 #restaurant .container-principal-menu .main_entrée .entrées__card :hover + .tarif-icon .fa-circle-check {
   transform-origin: center;
-  transform: rotate(90deg);
+  transform: rotate(360deg);
   transition: all 1s ease-in-out 0.1s;
 }
 #restaurant .container-principal-menu .main_entrée .entrées__card .card__text-box {

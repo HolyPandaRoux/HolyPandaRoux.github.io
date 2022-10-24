@@ -14,4 +14,10 @@
     flex-direction: column;
     width: 100%;
     box-shadow: 0px 8px 15px -17px;
+    cursor: pointer;
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    margin-top: 40px;
+    animation-fill-mode: both;
 }
