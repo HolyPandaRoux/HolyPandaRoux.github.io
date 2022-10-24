@@ -1125,6 +1125,8 @@ section {
   100% {
     opacity: 0;
     display: none;
+    width: 0px;
+    height: 0px;
   }
 }
 
@@ -1136,6 +1138,8 @@ section {
   100% {
     opacity: 0;
     display: none;
+    width: 0px;
+    height: 0px;
   }
 }
 @-webkit-keyframes loader {
@@ -1886,7 +1890,7 @@ footer svg path {
 }
 #restaurant .container-principal-menu .main_entrée .entrées__card :hover + .tarif-icon .fa-circle-check {
   transform-origin: center;
-  transform: rotate(360deg);
+  transform: rotate(90deg);
   transition: all 1s ease-in-out 0.1s;
 }
 #restaurant .container-principal-menu .main_entrée .entrées__card .card__text-box {
