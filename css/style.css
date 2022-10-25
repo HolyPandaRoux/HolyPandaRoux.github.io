@@ -641,7 +641,6 @@ section {
   fill-opacity: 1;
   flood-opacity: 10%;
   fill-rule: evenodd;
-  -webkit-text-fill-color: #d04ed6;
   transition-duration: 2s;
   font-weight: 700;
   color: #d04ed6;
@@ -692,43 +691,42 @@ section {
 /* Font Icon */
 .loader-container {
   display: flex;
-  align-items: center;
   justify-content: center;
   position: fixed;
-  top: 0;
+  justify-items: center;
+  align-items: center;
   left: 0;
   width: 100%;
   height: 100%;
-  -webkit-animation: loader-box forwards;
-          animation: loader-box forwards;
+  z-index: 0;
+  background-color: rgba(255, 121, 218, 0.8);
+}
+
+.site {
+  position: relative;
+  background-color: white;
+  z-index: 1;
+  -webkit-animation-name: loader-box;
+          animation-name: loader-box;
   -webkit-animation-duration: 4s;
           animation-duration: 4s;
-  background-color: rgba(255, 121, 218, 0.8);
 }
 
 @-webkit-keyframes loader-box {
   0% {
-    opacity: 1;
-    z-index: 10;
+    opacity: 0;
   }
   100% {
-    opacity: 0;
-    display: none;
-    width: 0px;
-    height: 0px;
+    opacity: 1;
   }
 }
 
 @keyframes loader-box {
   0% {
-    opacity: 1;
-    z-index: 10;
+    opacity: 0;
   }
   100% {
-    opacity: 0;
-    display: none;
-    width: 0px;
-    height: 0px;
+    opacity: 1;
   }
 }
 @-webkit-keyframes loader {
