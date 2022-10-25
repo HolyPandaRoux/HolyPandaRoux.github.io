@@ -1,6 +1,4 @@
 @use "./variables" as *;
-
-
 @mixin body-rules {
     display: flex;
     align-items: center;
@@ -73,41 +71,54 @@
     #heart-0 {
         display: $display-coeur;
     }
-
-    #heart-0:checked+label>i
-    {   fill-opacity: 1;
+    #heart-0:checked+label>i {
+        fill-opacity: 1;
         flood-opacity: 10%;
         fill-rule: evenodd;
         -webkit-text-fill-color: #d04ed6;
         transition-duration: 2s;
         font-weight: $font-weight-coeur;
-        color:#d04ed6;
-        
+        color: #d04ed6;
     }
-
+    #heart-0:hover+label>i {
+        fill-opacity: 1;
+        flood-opacity: 10%;
+        fill-rule: evenodd;
+        -webkit-text-fill-color: #d04ed6;
+        transition-duration: 2s;
+        font-weight: $font-weight-coeur;
+        color: #d04ed6;
+    }
     #heart-1 {
         display: $display-coeur;
     }
-
     #heart-1:checked+label>i {
         font-weight: $font-weight-coeur;
         color: $color-coeur;
     }
-
+    #heart-1:hover+label>i {
+        font-weight: $font-weight-coeur;
+        color: $color-coeur;
+    }
     #heart-2 {
         display: $display-coeur;
     }
-
     #heart-2:checked+label>i {
         font-weight: $font-weight-coeur;
         color: $color-coeur;
     }
-
+    #heart-2:hover+label>i {
+        font-weight: $font-weight-coeur;
+        color: $color-coeur;
+    }
     #heart-3 {
         display: $display-coeur;
     }
-
     #heart-3:checked+label>i {
+        font-weight: $font-weight-coeur;
+        color: $color-coeur;
+    }
+    #heart-3:hover+label>i {
         font-weight: $font-weight-coeur;
         color: $color-coeur;
     }

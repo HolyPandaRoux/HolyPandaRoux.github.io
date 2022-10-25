@@ -637,11 +637,26 @@ section {
   color: #d04ed6;
 }
 
+#heart-0:hover + label > i {
+  fill-opacity: 1;
+  flood-opacity: 10%;
+  fill-rule: evenodd;
+  -webkit-text-fill-color: #d04ed6;
+  transition-duration: 2s;
+  font-weight: 700;
+  color: #d04ed6;
+}
+
 #heart-1 {
   display: none;
 }
 
 #heart-1:checked + label > i {
+  font-weight: 700;
+  color: #d04ed6;
+}
+
+#heart-1:hover + label > i {
   font-weight: 700;
   color: #d04ed6;
 }
@@ -655,11 +670,21 @@ section {
   color: #d04ed6;
 }
 
+#heart-2:hover + label > i {
+  font-weight: 700;
+  color: #d04ed6;
+}
+
 #heart-3 {
   display: none;
 }
 
 #heart-3:checked + label > i {
+  font-weight: 700;
+  color: #d04ed6;
+}
+
+#heart-3:hover + label > i {
   font-weight: 700;
   color: #d04ed6;
 }
