@@ -175,6 +175,165 @@
     transform: scale(0.9);
   }
 }
+@media only screen and (min-width: 768px) {
+  #restaurant .container-principal-menu .page_header_image img {
+    display: flex;
+    width: 21%;
+    height: 17%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    align-content: center;
+    align-items: center;
+  }
+  .page_header_image {
+    display: flex;
+    justify-content: center;
+    width: 78%;
+    align-items: center;
+  }
+  #restaurant .reservation__button_pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    width: 100%;
+  }
+  #restaurant .container-principal-menu .main_entrée {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    padding-bottom: 40px;
+    row-gap: 6px;
+  }
+  #restaurant .container-principal-menu .main_entrée {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    padding-bottom: 40px;
+    row-gap: 6px;
+  }
+  #restaurant .container-principal-menu .menu-container .main__nom-restaurant {
+    font-family: "Shrikhand";
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 400;
+    display: flex;
+    margin: 29px 15px;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    -webkit-font-smoothing: antialiased;
+  }
+  #restaurant .container-principal-menu .menu-container {
+    display: flex;
+    width: 90%;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: #eaeaea;
+    z-index: 1;
+    position: relative;
+    bottom: 41px;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+  }
+  .page_header_image {
+    display: flex;
+    justify-content: center;
+    width: 49%;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  #restaurant .container-principal-menu .page_header_image img {
+    display: flex;
+    width: 21%;
+    height: 17%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    align-content: center;
+    align-items: center;
+  }
+  .page_header_image {
+    display: flex;
+    justify-content: center;
+    width: 78%;
+    align-items: center;
+  }
+  #restaurant .reservation__button_pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    width: 100%;
+  }
+  #restaurant .container-principal-menu .main_entrée {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    padding-bottom: 40px;
+    row-gap: 6px;
+  }
+  #restaurant .container-principal-menu .main_entrée {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    padding-bottom: 40px;
+    row-gap: 6px;
+  }
+  #restaurant .container-principal-menu .menu-container .main__nom-restaurant {
+    font-family: "Shrikhand";
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 400;
+    display: flex;
+    margin: 29px 15px;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    -webkit-font-smoothing: antialiased;
+  }
+  #restaurant .container-principal-menu .menu-container {
+    display: flex;
+    width: 100%;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: #eaeaea;
+    z-index: 1;
+    /* position: relative; */
+    padding-top: 62px;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
+    bottom: 41px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  .page_header_image {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    align-items: center;
+  }
+}
 body,
 h1,
 h2,
@@ -602,6 +761,165 @@ section {
   }
   100% {
     transform: scale(0.9);
+  }
+}
+@media only screen and (min-width: 768px) {
+  #restaurant .container-principal-menu .page_header_image img {
+    display: flex;
+    width: 21%;
+    height: 17%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    align-content: center;
+    align-items: center;
+  }
+  .page_header_image {
+    display: flex;
+    justify-content: center;
+    width: 78%;
+    align-items: center;
+  }
+  #restaurant .reservation__button_pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    width: 100%;
+  }
+  #restaurant .container-principal-menu .main_entrée {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    padding-bottom: 40px;
+    row-gap: 6px;
+  }
+  #restaurant .container-principal-menu .main_entrée {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    padding-bottom: 40px;
+    row-gap: 6px;
+  }
+  #restaurant .container-principal-menu .menu-container .main__nom-restaurant {
+    font-family: "Shrikhand";
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 400;
+    display: flex;
+    margin: 29px 15px;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    -webkit-font-smoothing: antialiased;
+  }
+  #restaurant .container-principal-menu .menu-container {
+    display: flex;
+    width: 90%;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: #eaeaea;
+    z-index: 1;
+    position: relative;
+    bottom: 41px;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+  }
+  .page_header_image {
+    display: flex;
+    justify-content: center;
+    width: 49%;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  #restaurant .container-principal-menu .page_header_image img {
+    display: flex;
+    width: 21%;
+    height: 17%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    align-content: center;
+    align-items: center;
+  }
+  .page_header_image {
+    display: flex;
+    justify-content: center;
+    width: 78%;
+    align-items: center;
+  }
+  #restaurant .reservation__button_pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    width: 100%;
+  }
+  #restaurant .container-principal-menu .main_entrée {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    padding-bottom: 40px;
+    row-gap: 6px;
+  }
+  #restaurant .container-principal-menu .main_entrée {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    padding-bottom: 40px;
+    row-gap: 6px;
+  }
+  #restaurant .container-principal-menu .menu-container .main__nom-restaurant {
+    font-family: "Shrikhand";
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 400;
+    display: flex;
+    margin: 29px 15px;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    -webkit-font-smoothing: antialiased;
+  }
+  #restaurant .container-principal-menu .menu-container {
+    display: flex;
+    width: 100%;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: #eaeaea;
+    z-index: 1;
+    /* position: relative; */
+    padding-top: 62px;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
+    bottom: 41px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  .page_header_image {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    align-items: center;
   }
 }
 /* icone map bandeau lieux acceuil */
@@ -1246,6 +1564,165 @@ footer svg path {
   }
   100% {
     transform: scale(0.9);
+  }
+}
+@media only screen and (min-width: 768px) {
+  #restaurant .container-principal-menu .page_header_image img {
+    display: flex;
+    width: 21%;
+    height: 17%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    align-content: center;
+    align-items: center;
+  }
+  .page_header_image {
+    display: flex;
+    justify-content: center;
+    width: 78%;
+    align-items: center;
+  }
+  #restaurant .reservation__button_pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    width: 100%;
+  }
+  #restaurant .container-principal-menu .main_entrée {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    padding-bottom: 40px;
+    row-gap: 6px;
+  }
+  #restaurant .container-principal-menu .main_entrée {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    padding-bottom: 40px;
+    row-gap: 6px;
+  }
+  #restaurant .container-principal-menu .menu-container .main__nom-restaurant {
+    font-family: "Shrikhand";
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 400;
+    display: flex;
+    margin: 29px 15px;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    -webkit-font-smoothing: antialiased;
+  }
+  #restaurant .container-principal-menu .menu-container {
+    display: flex;
+    width: 90%;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: #eaeaea;
+    z-index: 1;
+    position: relative;
+    bottom: 41px;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+  }
+  .page_header_image {
+    display: flex;
+    justify-content: center;
+    width: 49%;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  #restaurant .container-principal-menu .page_header_image img {
+    display: flex;
+    width: 21%;
+    height: 17%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    align-content: center;
+    align-items: center;
+  }
+  .page_header_image {
+    display: flex;
+    justify-content: center;
+    width: 78%;
+    align-items: center;
+  }
+  #restaurant .reservation__button_pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    width: 100%;
+  }
+  #restaurant .container-principal-menu .main_entrée {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    padding-bottom: 40px;
+    row-gap: 6px;
+  }
+  #restaurant .container-principal-menu .main_entrée {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    padding-bottom: 40px;
+    row-gap: 6px;
+  }
+  #restaurant .container-principal-menu .menu-container .main__nom-restaurant {
+    font-family: "Shrikhand";
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 400;
+    display: flex;
+    margin: 29px 15px;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    -webkit-font-smoothing: antialiased;
+  }
+  #restaurant .container-principal-menu .menu-container {
+    display: flex;
+    width: 100%;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: #eaeaea;
+    z-index: 1;
+    /* position: relative; */
+    padding-top: 62px;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
+    bottom: 41px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  .page_header_image {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    align-items: center;
   }
 }
 #restaurant .container-principal-menu {
